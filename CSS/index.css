@@ -1,0 +1,725 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+:root {
+    --white-color: rgb(255, 255, 255);
+    --back-1-color: #352001;
+    --text-1-color: rgb(255, 220, 176);
+    --text-2-color: rgb(17, 10, 1);
+    --back-2-color: rgb(237, 188, 127);
+    --back-3-color: rgb(17, 9, 1);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-item .nav-link {
+    margin: 0 10px;
+}
+
+.nav-logo h3 {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.nav-logo img {
+    width: 30px;
+    margin-bottom: 10px;
+}
+
+.nav-logo p {
+    font-size: 11px;
+    margin-top: -10px;
+}
+
+.back-ground {
+    background: linear-gradient(135deg, rgb(231, 187, 98), rgb(213, 204, 183), rgb(58, 58, 58));
+    width: 100%;
+    height: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.bg-filter {
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.back-ground-plus {
+    background: linear-gradient(135deg, rgb(207, 196, 173), rgb(190, 183, 183));
+    width: 100%;
+    height: 100%;
+
+}
+
+.bg-filter-plus {
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.bg-filter .container {
+    width: 90%;
+}
+
+
+.one .h2 h2 {
+    font-weight: 900;
+    font-size: 150%;
+
+}
+
+.one .btn-one a {
+    font-weight: 700;
+    color: white;
+}
+
+.one .btn-one button {
+    background-color: black;
+    padding: 2.5% 9%;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.icons .bg-img {
+    background-color: rgba(240, 248, 255, 0.182);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 60px;
+    height: 65px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 12px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+}
+
+.icons .bg-img img {
+    width: 100%;
+    margin: 37% 4%;
+}
+
+.width-img img {
+    width: 80%;
+}
+
+.bg-card {
+    background-color: rgba(240, 248, 255, 0.182);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 100%;
+    height: 340px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+
+}
+
+.bg-card img {
+    width: 70%;
+    margin: -110% 15%;
+}
+
+.tow {
+    padding-top: 7%;
+}
+
+.bg-card h6 {
+    font-weight: 700;
+}
+
+.bg-card p {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.text-card {
+    padding-top: 40%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+
+.tow .row {
+    padding-top: 4rem;
+}
+
+
+
+
+@media screen and (max-width:400px) {
+
+
+    .tow .row {
+        padding-top: 2rem;
+    }
+
+
+}
+
+.icons-card {
+    padding: 0 8%;
+}
+
+
+.bg-icons {
+    background-color: aliceblue;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    margin: -7px 10px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+}
+
+.bg-icons i {
+    margin: 12px 10px;
+    color: #000;
+    font-size: larger;
+
+}
+
+.price button {
+    background-color: #000;
+    margin-top: 20px;
+    padding: 1% 5%;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.price span {
+    color: #ffffff;
+
+}
+
+.text-bold h3 {
+    font-weight: 700;
+}
+
+.text-bold p {
+    font-size: 14px;
+    padding: 30px 0;
+}
+
+.text-bold button {
+    background-color: #000;
+    padding: 2% 8%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+}
+
+.text-bold a {
+    color: #ffffff;
+
+}
+
+.three h3 {
+    font-weight: 800;
+    width: 85%;
+}
+
+.three p {
+    padding: 5% 0;
+    font-size: 14px;
+
+}
+
+.bg-img-beans {
+
+    background-image: url(..//photos/vecteezy_coffee-beans-background_14033649_511.png);
+    background-size: 100% 100%;
+    width: 100%;
+
+
+}
+
+.bg-img-beans img {
+    margin: 15% 15%;
+    background-size: 100% 100%;
+    width: 80%;
+}
+
+.bg-APP-one {
+    background-color: rgba(240, 248, 255, 0.182);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 100%;
+    /* height: 340px; */
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+}
+
+.bg-APP-tow {
+    background-color: rgba(240, 248, 255, 0.182);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 100%;
+
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+}
+
+.bg-APP-one i {
+    color: #000;
+}
+
+.bg-APP-one h3 {
+    font-weight: 800;
+    padding: 15px 0;
+}
+
+.bg-APP-one button {
+    background-color: black;
+    padding: 2.5% 9%;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+}
+
+.bg-APP-one a {
+    font-weight: 700;
+    color: white;
+}
+
+
+.icons-plus .bg-img-plus {
+    background-color: rgba(240, 248, 255, 0.182);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 60px;
+    height: 65px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+
+}
+
+.icons-plus .bg-img-plus img {
+    width: 100%;
+    margin: 37% 4%;
+}
+
+.bg-card-plus img {
+    width: 70%;
+    margin: -110% 16%;
+}
+
+
+.bg-card-plus h6 {
+    font-weight: 700;
+}
+
+.bg-card-plus p {
+    font-size: 50%;
+    font-weight: 500;
+}
+
+.text-card-plus {
+    padding-top: 30%;
+
+}
+
+.price-plus span {
+    color: #ffffff;
+
+}
+
+.bg-card-plus {
+    background-color: rgba(240, 248, 255, 0.182);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 100%;
+    height: 230px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    margin: 16% 0;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+
+
+}
+
+
+.bg-icons-plus {
+    background-color: rgba(240, 248, 255, 0.493);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    margin: -7px 10px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+}
+
+.bg-icons-plus i {
+    margin: 12px 10px;
+    color: #000;
+    font-size: 120%;
+
+}
+
+.price-plus button {
+    background-color: #000;
+    margin-top: 20px;
+    padding: 1% 5%;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+}
+
+
+
+.Espresso-Coffee {
+    background-color: rgba(240, 248, 255, 0.182);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 100%;
+    height: 180px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+
+
+
+
+}
+
+.Espresso-Coffee h6 {
+    font-weight: 700;
+    padding: 5px 0;
+}
+
+.Espresso-Coffee p {
+    font-size: 50%;
+}
+
+.min-img-beans {
+    background-image: url(../photos/vecteezy_coffee-beans-background_14033539_44.png);
+    background-size: 100% 100%;
+    margin: 0 -30px;
+    width: 500%;
+    height: 100%;
+
+
+}
+
+.min-img-beans img {
+    background-size: 100% 100%;
+    width: 110%;
+    margin: 25px 0px;
+
+
+
+}
+
+.bg-nav {
+    background-color: #000;
+    width: 100%;
+    height: 60px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+}
+
+.bg-nav i {
+    color: white;
+    font-size: 130%;
+}
+
+.bg-nav span {
+    background-color: rgb(61, 60, 60);
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    padding: 7px;
+}
+
+.bg-APP-tow img {
+    width: 160%;
+    margin: 0 -30%;
+    padding: 11% 0;
+}
+
+.bg-APP-tow h6 {
+    font-weight: 700;
+    padding: 5px 0;
+}
+
+.bg-APP-tow p {
+    font-size: 50%;
+}
+
+.total-price p {
+    font-size: 13px;
+    font-weight: 700;
+
+}
+
+.total-price span {
+    font-size: 16px;
+    font-weight: 700;
+    background-color: rgba(240, 248, 255, 0.493);
+    padding: 5px 20px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    margin: 0 5px;
+}
+
+.total-price i {
+    font-size: 18px;
+    margin: 0 5px;
+    background-color: rgba(240, 248, 255, 0.493);
+    padding: 8px 8px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.total-price button a i {
+    padding: 8px;
+    background-color: #ffffff;
+    font-size: 13px;
+    color: gold;
+
+
+}
+
+.total-price button a {
+
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 600;
+
+
+}
+
+.total-price button {
+
+    background-color: #000;
+    padding: 1% 2%;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+
+
+
+}
+
+.Apple-google img {
+    width: 17%;
+    margin: 0 15px;
+    background-color: rgba(240, 248, 255, 0.493);
+    padding: 10px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+}
+
+.Apple-google p {
+    font-size: 80%;
+    padding: 7% 0;
+
+}
+
+.Apple-google h3 {
+    font-weight: 800;
+
+
+
+}
+
+.five button {
+    padding: 3% 12%;
+    background-color: #000;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+}
+
+.five a {
+
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 110%;
+
+}
+
+.five h2 {
+
+    font-weight: 800;
+}
+
+.five h6 {
+
+    font-weight: 700;
+}
+
+.font {
+    width: 100%;
+    height: 1.5px;
+    background-color: #ffffff;
+    margin: 30px 0;
+}
+
+.map {
+    width: 100%;
+}
+
+.list-unstyled {
+    margin-left: -20px;
+}
+
+.five ul li {
+    font-size: 80%;
+    font-weight: 500;
+}
+
+.h-p h3 {
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.h-p p {
+    font-size: 90%;
+}
+
+@media screen and (max-width:992px) {
+
+    .bg-card {
+
+        width: 100%;
+
+        margin: 30% 0;
+
+    }
+
+    .width-img img {
+        width: 100%;
+    }
+
+    .bg-card-plus img {
+        width: 40%;
+        margin: -110% 29%;
+    }
+
+    .text-card-plus {
+        padding-top: 20%;
+
+    }
+
+    .bg-card-plus p {
+
+        font-weight: 500;
+    }
+
+    .min-img-beans img {
+        width: 40%;
+        margin: 0 35%;
+
+    }
+
+    .min-img-beans {
+
+        width: 60%;
+        margin: 0 16%
+    }
+
+}
